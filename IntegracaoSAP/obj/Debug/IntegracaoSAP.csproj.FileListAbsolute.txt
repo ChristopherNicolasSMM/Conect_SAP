@@ -1,0 +1,75 @@
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe.config
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.pdb
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\rscp4n.dll
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\sapnco.dll
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\sapnco_utils.dll
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csprojResolveAssemblyReference.cache
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.Properties.Resources.resources
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.GenerateResource.Cache
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.exe
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.pdb
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.Form1.resources
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe.config
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.pdb
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csprojAssemblyReference.cache
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.Form1.resources
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.Properties.Resources.resources
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.GenerateResource.cache
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.CoreCompileInputs.cache
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.CopyComplete
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.exe
+C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.pdb
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe.config
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.pdb
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\rscp4n.dll
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\sapnco.dll
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\sapnco_utils.dll
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csprojAssemblyReference.cache
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.Form.resources
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.Properties.Resources.resources
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.GenerateResource.cache
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.CoreCompileInputs.cache
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.CopyComplete
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.exe
+C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.pdb
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe.config
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.pdb
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\rscp4n.dll
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\sapnco.dll
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\sapnco_utils.dll
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.Form.resources
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.Properties.Resources.resources
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.GenerateResource.cache
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.CoreCompileInputs.cache
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.CopyComplete
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.exe
+C:\Users\Christopher\Desktop\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.pdb
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe.config
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.pdb
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\bin\Debug\rscp4n.dll
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\bin\Debug\sapnco.dll
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\bin\Debug\sapnco_utils.dll
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csprojAssemblyReference.cache
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.Form.resources
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.Properties.Resources.resources
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.GenerateResource.cache
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.CoreCompileInputs.cache
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.csproj.CopyComplete
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.exe
+C:\Users\Christopher\Desktop\ABAP_guitHub\Conect_SAP\IntegracaoSAP\obj\Debug\IntegracaoSAP.pdb

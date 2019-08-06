@@ -1,0 +1,1162 @@
+**** Log file opened by process 189780 at 2017-12-27 09:46:36 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 09:46:36.621 [Thread 1]
+SAP.Middleware.Connector.RfcConfigurationException: 100 is not a valid system number
+   em SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopyTo(RfcConfigParameters target)
+   em SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopy()
+   em SAP.Middleware.Connector.RfcDestination..ctor(String destName, RfcConfigParameters parameters)
+   em SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+**** Log file opened by process 189664 at 2017-12-27 10:10:58 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 10:10:58.151 [Thread 1]
+Failure to create pool for destination SAP QA (ORIGINAL) [NAME=SAP QA ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O nome ou a senha não está correto (repetir o logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: O nome ou a senha não está correto (repetir o logon)
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-27 10:10:58.156 [Thread 1]
+[NAME=SAP QA ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O nome ou a senha não está correto (repetir o logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: O nome ou a senha não está correto (repetir o logon)
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+>> Error entry 2017-12-27 10:11:13.525 [Thread 1]
+Failure to create pool for destination SAP QA (ORIGINAL) [NAME=SAP QA ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O nome ou a senha não está correto (repetir o logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: O nome ou a senha não está correto (repetir o logon)
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-27 10:11:13.527 [Thread 1]
+[NAME=SAP QA ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O nome ou a senha não está correto (repetir o logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: O nome ou a senha não está correto (repetir o logon)
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 193320 at 2017-12-27 10:11:37 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 10:11:37.616 [Thread 1]
+Failure to create pool for destination SAP QA (ORIGINAL) [NAME=SAP QA ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O nome ou a senha não está correto (repetir o logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: O nome ou a senha não está correto (repetir o logon)
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-27 10:11:37.620 [Thread 1]
+[NAME=SAP QA ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O nome ou a senha não está correto (repetir o logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: O nome ou a senha não está correto (repetir o logon)
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 192596 at 2017-12-27 10:12:05 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 10:12:05.379 [Thread 1]
+Failure to create pool for destination SAP QA (ORIGINAL) [NAME=SAP QA ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O nome ou a senha não está correto (repetir o logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: O nome ou a senha não está correto (repetir o logon)
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-27 10:12:05.383 [Thread 1]
+[NAME=SAP QA ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O nome ou a senha não está correto (repetir o logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: O nome ou a senha não está correto (repetir o logon)
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 194748 at 2017-12-27 10:39:06 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 10:39:06.696 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER TABELA of FUNCTION ZSD_RFC_INTEGRACAO (SETTER): cannot convert ParametroRFC into STRUCTURE ZSDK087 ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'IntegracaoSAP.Classes.ParametroRFC' no tipo 'SAP.Middleware.Connector.IRfcStructure'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+**** Log file opened by process 197072 at 2017-12-27 10:43:00 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 10:43:00.190 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER TABELA of FUNCTION ZSD_RFC_INTEGRACAO (SETTER): cannot convert ParametroRFC into STRUCTURE ZSDK087 ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'IntegracaoSAP.Classes.ParametroRFC' no tipo 'SAP.Middleware.Connector.IRfcStructure'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+**** Log file opened by process 196716 at 2017-12-27 10:46:11 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 10:46:11.457 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER TABELA of FUNCTION ZSD_RFC_INTEGRACAO (SETTER): cannot convert ParametroRFC into STRUCTURE ZSDK087 ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'IntegracaoSAP.Classes.ParametroRFC' no tipo 'SAP.Middleware.Connector.IRfcStructure'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+**** Log file opened by process 198312 at 2017-12-27 10:49:52 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 10:49:52.135 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER TABELA of FUNCTION ZSD_RFC_INTEGRACAO (SETTER): cannot convert List`1 into STRUCTURE ZSDK087 ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'System.Collections.Generic.List`1[IntegracaoSAP.Classes.ParametroRFC]' no tipo 'SAP.Middleware.Connector.IRfcStructure'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+**** Log file opened by process 197764 at 2017-12-27 10:50:26 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 10:50:26.040 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER TABELA of FUNCTION ZSD_RFC_INTEGRACAO (SETTER): cannot convert List`1 into STRUCTURE ZSDK087 ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'System.Collections.Generic.List`1[IntegracaoSAP.Classes.ParametroRFC]' no tipo 'SAP.Middleware.Connector.IRfcStructure'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+**** Log file opened by process 189420 at 2017-12-27 10:57:56 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 10:57:56.671 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER TABELA of FUNCTION ZSD_RFC_INTEGRACAO (GETTER): cannot convert STRUCTURE ZSDK087 into IRfcTable ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'SAP.Middleware.Connector.RfcStructure' no tipo 'SAP.Middleware.Connector.IRfcTable'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.GetTable(Int32 index, Boolean create)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.GetTable(Int32 index, Boolean create)
+**** Log file opened by process 200248 at 2017-12-27 11:08:57 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 11:08:57.754 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER TABELA of FUNCTION ZSD_RFC_INTEGRACAO (GETTER): cannot convert STRUCTURE ZSDK087 into IRfcTable ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'SAP.Middleware.Connector.RfcStructure' no tipo 'SAP.Middleware.Connector.IRfcTable'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.GetTable(Int32 index, Boolean create)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.GetTable(Int32 index, Boolean create)
+**** Log file opened by process 197660 at 2017-12-27 11:09:26 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.162, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-27 11:09:26.940 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER TABELA of FUNCTION ZSD_RFC_INTEGRACAO (GETTER): cannot convert STRUCTURE ZSDK087 into IRfcTable ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'SAP.Middleware.Connector.RfcStructure' no tipo 'SAP.Middleware.Connector.IRfcTable'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.GetTable(Int32 index, Boolean create)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.GetTable(Int32 index, Boolean create)
+**** Log file opened by process 397512 at 2017-12-28 16:07:39 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.121.10, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-28 16:07:39.663 [Thread 1]
+Failure to create pool for destination SAP QA (ORIGINAL) [NAME=SAP QA ASHOST=10.17.116.21 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 100 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 100 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-28 16:07:39.932 [Thread 1]
+[NAME=SAP QA ASHOST=10.17.116.21 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 100 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 100 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+>> Error entry 2017-12-28 16:07:44.848 [Thread 1]
+Failure to create pool for destination SAP QA (ORIGINAL) [NAME=SAP QA ASHOST=10.17.116.21 SYSNR=00 CLIENT=200 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 200 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 200 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-28 16:07:44.850 [Thread 1]
+[NAME=SAP QA ASHOST=10.17.116.21 SYSNR=00 CLIENT=200 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 200 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 200 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+>> Error entry 2017-12-28 16:08:08.508 [Thread 1]
+[NAME=SAP QA ASHOST=10.17.116.21 SYSNR=00 CLIENT=300 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function ZSD_RFC_INTEGRACAO not available: FU_NOT_FOUND: O módulo de função ZSD_RFC_INTEGRACAO ainda não existe.
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2017-12-28 16:08:08.509 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function ZSD_RFC_INTEGRACAO not available: FU_NOT_FOUND: O módulo de função ZSD_RFC_INTEGRACAO ainda não existe.
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+**** Log file opened by process 502632 at 2017-12-29 07:49:06 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.121.10, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-12-29 07:49:07.181 [Thread 1]
+Failure to create pool for destination SAP QA (ORIGINAL) [NAME=SAP QA ASHOST=10.17.116.21 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 100 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 100 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-12-29 07:49:08.216 [Thread 1]
+[NAME=SAP QA ASHOST=10.17.116.21 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 100 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 100 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 171348 at 2018-02-16 15:23:03 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-02-16 15:23:05.005 [Thread 1]
+Failure to create pool for destination SAP QA (ORIGINAL) [NAME=SAP QA ASHOST=10.17.116.21 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 100 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 100 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-02-16 15:23:07.502 [Thread 1]
+[NAME=SAP QA ASHOST=10.17.116.21 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 100 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 100 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+>> Error entry 2018-02-16 15:23:21.737 [Thread 1]
+[NAME=SAP QA ASHOST=10.17.116.21 SYSNR=00 CLIENT=300 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function ZSD_RFC_INTEGRACAO not available: FU_NOT_FOUND: O módulo de função ZSD_RFC_INTEGRACAO ainda não existe.
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-02-16 15:23:21.739 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function ZSD_RFC_INTEGRACAO not available: FU_NOT_FOUND: O módulo de função ZSD_RFC_INTEGRACAO ainda não existe.
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+**** Log file opened by process 9116 at 2018-02-19 08:45:52 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-02-19 08:45:52.127 [Thread 1]
+Failure to create pool for destination SAP DEV (ORIGINAL) [NAME=SAP DEV ASHOST=10.17.116.3 SYSNR=00 CLIENT=300 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 300 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 300 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-02-19 08:45:52.599 [Thread 1]
+[NAME=SAP DEV ASHOST=10.17.116.3 SYSNR=00 CLIENT=300 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 300 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 300 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 8412 at 2018-02-19 08:48:15 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-02-19 08:48:15.629 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER T_GETFATURAMENTOSSAP of FUNCTION ZSD_RFC_INTEGRACAO_INVISTA (GETTER): cannot convert TABLE ZSDT105_T [STRUCTURE ZSDT105] into IRfcStructure ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'SAP.Middleware.Connector.RfcTable' no tipo 'SAP.Middleware.Connector.IRfcStructure'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.GetStructure(Int32 index, Boolean create)
+**** Log file opened by process 9796 at 2018-02-21 09:54:46 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-02-21 09:54:46.918 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER P_FATURAMENTO of FUNCTION ZSD_RFC_INTEGRACAO_INVISTA (SETTER): cannot convert FaturamentoEntity into STRUCTURE ZSDT105 ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'IntegracaoSAP.Classes.FaturamentoEntity' no tipo 'SAP.Middleware.Connector.IRfcStructure'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+>> Error entry 2018-02-21 09:54:57.187 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER P_FATURAMENTO of FUNCTION ZSD_RFC_INTEGRACAO_INVISTA (SETTER): cannot convert FaturamentoEntity into STRUCTURE ZSDT105 ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'IntegracaoSAP.Classes.FaturamentoEntity' no tipo 'SAP.Middleware.Connector.IRfcStructure'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+>> Error entry 2018-02-21 09:54:58.246 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER P_FATURAMENTO of FUNCTION ZSD_RFC_INTEGRACAO_INVISTA (SETTER): cannot convert FaturamentoEntity into STRUCTURE ZSDT105 ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'IntegracaoSAP.Classes.FaturamentoEntity' no tipo 'SAP.Middleware.Connector.IRfcStructure'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+>> Error entry 2018-02-21 09:54:58.925 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER P_FATURAMENTO of FUNCTION ZSD_RFC_INTEGRACAO_INVISTA (SETTER): cannot convert FaturamentoEntity into STRUCTURE ZSDT105 ---> System.InvalidCastException: Não é possível converter um objeto do tipo 'IntegracaoSAP.Classes.FaturamentoEntity' no tipo 'SAP.Middleware.Connector.IRfcStructure'.
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+**** Log file opened by process 7248 at 2018-02-21 10:02:01 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-02-21 10:02:01.279 [Thread 1]
+[NAME=SAP DEV ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcCommunicationException: no SAP ErrInfo available
+   em SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   em SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   em SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   em SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Log file opened by process 11724 at 2018-02-21 10:09:10 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-02-21 10:09:10.917 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD QUANTIDADE of STRUCTURE ZSDT105 (SETTER): cannot convert String into BCD[7:3] ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 20.000  into a BCD because of invalid character ' ' in decimal part
+   em SAP.Middleware.Connector.RfcScalarMetadataBcd.ConvertString(String value, Object& currentValue)
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+>> Error entry 2018-02-21 10:09:16.199 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD QUANTIDADE of STRUCTURE ZSDT105 (SETTER): cannot convert String into BCD[7:3] ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 10.000  into a BCD because of invalid character ' ' in decimal part
+   em SAP.Middleware.Connector.RfcScalarMetadataBcd.ConvertString(String value, Object& currentValue)
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+>> Error entry 2018-02-21 10:09:17.170 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD QUANTIDADE of STRUCTURE ZSDT105 (SETTER): cannot convert String into BCD[7:3] ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 20.000  into a BCD because of invalid character ' ' in decimal part
+   em SAP.Middleware.Connector.RfcScalarMetadataBcd.ConvertString(String value, Object& currentValue)
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+>> Error entry 2018-02-21 10:09:17.622 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD QUANTIDADE of STRUCTURE ZSDT105 (SETTER): cannot convert String into BCD[7:3] ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 10.000  into a BCD because of invalid character ' ' in decimal part
+   em SAP.Middleware.Connector.RfcScalarMetadataBcd.ConvertString(String value, Object& currentValue)
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Log file opened by process 11984 at 2018-02-21 10:09:49 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-02-21 10:09:49.192 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD QUANTIDADE of STRUCTURE ZSDT105 (SETTER): cannot convert String into BCD[7:3] ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 20.000  into a BCD because of invalid character ' ' in decimal part
+   em SAP.Middleware.Connector.RfcScalarMetadataBcd.ConvertString(String value, Object& currentValue)
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Log file opened by process 2364 at 2018-02-21 10:11:26 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-02-21 10:11:26.708 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD QUANTIDADE of STRUCTURE ZSDT105 (SETTER): cannot convert String into BCD[7:3] ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 20.000  into a BCD because of invalid character ' ' in decimal part
+   em SAP.Middleware.Connector.RfcScalarMetadataBcd.ConvertString(String value, Object& currentValue)
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Log file opened by process 9772 at 2018-02-21 10:20:24 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-02-21 10:20:24.982 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD QUANTIDADE of STRUCTURE ZSDT105 (SETTER): cannot convert Byte[] into BCD[7:3] ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert byte[] of length 2 into a BCD of length 7
+   em SAP.Middleware.Connector.RfcScalarMetadataBcd.ConvertByteArray(Byte[] value, Int32 offset, Int32 len, Object& currentValue)
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Byte[] value, Int32 offset, Int32 len)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Byte[] value, Int32 offset, Int32 len)
+**** Log file opened by process 9060 at 2018-02-21 10:22:43 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-02-21 10:22:43.900 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD VALOR of STRUCTURE ZSDT105 (SETTER): cannot convert String into BCD[7:2] ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 101.26  into a BCD because of invalid character ' ' in decimal part
+   em SAP.Middleware.Connector.RfcScalarMetadataBcd.ConvertString(String value, Object& currentValue)
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Log file opened by process 2812 at 2018-03-12 07:41:19 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-12 07:41:20.305 [Thread 1]
+[NAME=SAP DEV ASHOST=10.17.116.26 SYSNR=00 CLIENT=300 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Program SAPLZGSD                                 not found.
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   em SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   em SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+>> Error entry 2018-03-12 07:41:43.675 [Thread 1]
+[NAME=SAP DEV ASHOST=10.17.116.26 SYSNR=00 CLIENT=300 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Program SAPLZGSD                                 not found.
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   em SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   em SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Log file opened by process 2276 at 2018-03-12 07:42:35 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-12 07:42:35.698 [Thread 1]
+[NAME=SAP DEV ASHOST=10.17.116.26 SYSNR=00 CLIENT=300 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcAbapRuntimeException: Function module "Z_SD_RFC_INTEGRACAO_INVISTA" cannot be used for 'remote' calls.
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   em SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   em SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Log file opened by process 9824 at 2018-03-13 12:59:23 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-13 12:59:23.573 [Thread 1]
+[NAME=SAP DEV ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function ZSD_RFC_INTEGRACAO_INVISTA not available: FU_NOT_FOUND: O módulo de função ZSD_RFC_INTEGRACAO_INVISTA ainda não existe.
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2018-03-13 12:59:23.693 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function ZSD_RFC_INTEGRACAO_INVISTA not available: FU_NOT_FOUND: O módulo de função ZSD_RFC_INTEGRACAO_INVISTA ainda não existe.
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
+**** Log file opened by process 6840 at 2018-03-13 13:06:38 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-13 13:06:38.232 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD DT_DOC_FATURAMENTO of STRUCTURE ZSDT105 (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 2018.02.16 into DATE (yyyyMMdd) ---> System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   em SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Log file opened by process 7936 at 2018-03-13 13:08:20 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-03-13 13:08:20.761 [Thread 1]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD DT_DOC_FATURAMENTO of STRUCTURE ZSDT105 (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 2018.02.16 into DATE (yyyyMMdd) ---> System.FormatException: Cadeia de caracteres não foi reconhecida como DateTime válido.
+   em System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   em SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Log file opened by process 8928 at 2018-04-02 17:10:55 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-04-02 17:10:55.955 [Thread 1]
+Failure to create pool for destination SAP DEV (ORIGINAL) [NAME=SAP DEV ASHOST=10.17.116.26 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 100 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 100 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-04-02 17:10:56.057 [Thread 1]
+[NAME=SAP DEV ASHOST=10.17.116.26 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 100 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 100 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 10484 at 2018-06-08 09:44:16 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-06-08 09:44:17.037 [Thread 1]
+Failure to create pool for destination SAP DEV (ORIGINAL) [NAME=SAP DEV ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O nome ou a senha não está correto (repetir o logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: O nome ou a senha não está correto (repetir o logon)
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-06-08 09:44:17.183 [Thread 1]
+[NAME=SAP DEV ASHOST=10.17.116.3 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O nome ou a senha não está correto (repetir o logon) ---> SAP.Middleware.Connector.RfcAbapMessageException: O nome ou a senha não está correto (repetir o logon)
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 12056 at 2018-06-08 09:45:47 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\gabriel.dias\Source\Repos\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system: Windows 7 Professional 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: NB01155, IP address: 192.168.151.122, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2018-06-08 09:45:47.866 [Thread 1]
+Failure to create pool for destination SAP DEV (ORIGINAL) [NAME=SAP DEV ASHOST=10.17.116.26 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 100 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 100 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2018-06-08 09:45:47.875 [Thread 1]
+[NAME=SAP DEV ASHOST=10.17.116.26 SYSNR=00 CLIENT=100 USER=gdfaria PASSWD=********]
+SAP.Middleware.Connector.RfcLogonException: O mandante 100 não existe no sistema ---> SAP.Middleware.Connector.RfcAbapMessageException: O mandante 100 não existe no sistema
+   em SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   em SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   em SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   em SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   em SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 10032 at 2019-06-25 09:11:04 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\Christopher\Desktop\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system:  Professional 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DESKTOP-QF1AITE, IP address: 192.168.0.100, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-06-25 09:11:04.691 [Thread 1]
+Failure to create pool for destination SAP DEV (ORIGINAL) [NAME=SAP DEV ASHOST=h2consult.dlinkddns.com SYSNR=00 CLIENT=300 USER=cmauricio PASSWD=********]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    SAP-Gateway on host SRVSAPH2 / sapgw00
+ERROR       partner 'h2consult.dlinkddns.com:sapgw00' not reached
+TIME        Tue Jun 25 09:11:04 2019
+RELEASE     742
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/742_REL/src/base/ni/nixxi.cpp
+LINE        3324
+DETAIL      NiPConnect2: 191.19.187.39:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     3
+
+   em SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-06-25 09:11:04.759 [Thread 1]
+[NAME=SAP DEV ASHOST=h2consult.dlinkddns.com SYSNR=00 CLIENT=300 USER=cmauricio PASSWD=********]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    SAP-Gateway on host SRVSAPH2 / sapgw00
+ERROR       partner 'h2consult.dlinkddns.com:sapgw00' not reached
+TIME        Tue Jun 25 09:11:04 2019
+RELEASE     742
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/742_REL/src/base/ni/nixxi.cpp
+LINE        3324
+DETAIL      NiPConnect2: 191.19.187.39:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     3
+
+   em SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+>> Error entry 2019-06-25 09:12:03.072 [Thread 1]
+Failure to create pool for destination SAP DEV (ORIGINAL) [NAME=SAP DEV ASHOST=h2consult.dlinkddns.com SYSNR=00 CLIENT=300 USER=cmauricio PASSWD=********]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    SAP-Gateway on host SRVSAPH2 / sapgw00
+ERROR       partner 'h2consult.dlinkddns.com:sapgw00' not reached
+TIME        Tue Jun 25 09:12:02 2019
+RELEASE     742
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/742_REL/src/base/ni/nixxi.cpp
+LINE        3324
+DETAIL      NiPConnect2: 191.19.187.39:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     6
+
+   em SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-06-25 09:12:03.072 [Thread 1]
+[NAME=SAP DEV ASHOST=h2consult.dlinkddns.com SYSNR=00 CLIENT=300 USER=cmauricio PASSWD=********]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    SAP-Gateway on host SRVSAPH2 / sapgw00
+ERROR       partner 'h2consult.dlinkddns.com:sapgw00' not reached
+TIME        Tue Jun 25 09:12:02 2019
+RELEASE     742
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/742_REL/src/base/ni/nixxi.cpp
+LINE        3324
+DETAIL      NiPConnect2: 191.19.187.39:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     6
+
+   em SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 8484 at 2019-07-24 13:46:43 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system:  Professional 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DESKTOP-QF1AITE, IP address: 192.168.0.102, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-07-24 13:46:43.653 [Thread 1]
+Failure to create pool for destination SAP DEV (ORIGINAL) [NAME=SAP DEV ASHOST=10.0.0.220 SYSNR=00 CLIENT=310 USER=tsm PASSWD=********]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.0.0.220:3300' not reached
+TIME        Wed Jul 24 13:46:43 2019
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.0.0.220:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   em SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-07-24 13:46:43.728 [Thread 1]
+[NAME=SAP DEV ASHOST=10.0.0.220 SYSNR=00 CLIENT=310 USER=tsm PASSWD=********]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.0.0.220:3300' not reached
+TIME        Wed Jul 24 13:46:43 2019
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.0.0.220:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   em SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 12908 at 2019-07-24 13:54:12 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system:  Professional 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DESKTOP-QF1AITE, IP address: 192.168.0.102, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-07-24 13:54:12.628 [Thread 1]
+Failure to create pool for destination SAP DEV (ORIGINAL) [NAME=SAP DEV ASHOST=10.0.0.220 SYSNR=00 CLIENT=310 USER=tsm PASSWD=******** SAPROUTER=temsap]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'temsap/H/10.0.0.220' unknown
+TIME        Wed Jul 24 13:54:12 2019
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'temsap/H/10.0.0.220' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+   em SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2019-07-24 13:54:12.635 [Thread 1]
+[NAME=SAP DEV ASHOST=10.0.0.220 SYSNR=00 CLIENT=310 USER=tsm PASSWD=******** SAPROUTER=temsap]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'temsap/H/10.0.0.220' unknown
+TIME        Wed Jul 24 13:54:12 2019
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'temsap/H/10.0.0.220' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+   em SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   em SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   em SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   em SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   em SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   em SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 6952 at 2019-07-24 13:55:51 (UTC-03:00 Hora oficial do Brasil)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 64-bit .NET Framework 4.0.30319.42000
+Program: C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug\IntegracaoSAP.exe
+Working directory: C:\Users\Christopher\Desktop\H2\Integração SAP RFC\IntegracaoSAP\IntegracaoSAP\bin\Debug
+Operating system:  Professional 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: DESKTOP-QF1AITE, IP address: 192.168.0.102, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2019-07-24 13:55:51.183 [Thread 1]
+[NAME=SAP DEV ASHOST=10.0.0.220 SYSNR=00 CLIENT=310 USER=tsm PASSWD=******** SAPROUTER=/H/187.72.107.158/S/3299/W/Cacola@2015]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function ZSD_RFC_INTEGRACAO not available: FU_NOT_FOUND: O módulo de função ZSD_RFC_INTEGRACAO ainda não existe.
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+>> Error entry 2019-07-24 13:55:51.190 [Thread 1]
+SAP.Middleware.Connector.RfcInvalidStateException: metadata for function ZSD_RFC_INTEGRACAO not available: FU_NOT_FOUND: O módulo de função ZSD_RFC_INTEGRACAO ainda não existe.
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadataNew(String name)
+   em SAP.Middleware.Connector.RfcRepository.LookupFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.GetFunctionMetadata(String name)
+   em SAP.Middleware.Connector.RfcRepository.CreateFunction(String name)
